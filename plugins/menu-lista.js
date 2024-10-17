@@ -71,7 +71,7 @@ let mentionedJid = [who]
 let username = conn.getName(who)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let pp = gataVidMenu
-let vn = 'https://qu.ax/bfaM.mp3'
+let vn = ''
 let pareja = global.db.data.users[m.sender].pasangan 
 //let fsizedoc = '1'.repeat(10)
 //let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}
@@ -227,9 +227,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃
 ┃💎 _${lenguajeGB['smsTex20']()}_ 💎
 ┃➺ _${usedPrefix}ownermenu_
-┃
-┃✅ *_CUENTAS OFICIALES GATABOT_* ✅
-┃➺ _${usedPrefix}cuentasgatabot | cuentasgb_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
 await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
