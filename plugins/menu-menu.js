@@ -529,7 +529,7 @@ ${margen}
 
 ✓ _${usedPrefix}fytendencia | fyranking_
 
-> 🏆 *TOP en GATABOT* 🏆
+> 🏆 *TOP en 𝐏𝐚𝐧𝐝𝐚𝐁𝐨𝐭* 🏆
 
 ✓ _${usedPrefix}top | lb | leaderboard_
 
